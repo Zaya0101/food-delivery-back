@@ -1,4 +1,4 @@
-const UserModel = require("../../Schemas/userSchema");
+const UserModel = require("../../schemas/userSchema");
 const bcrypt = require("bcrypt");
 
 const SALT_ROUND = 10;

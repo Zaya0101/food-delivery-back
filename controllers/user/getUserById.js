@@ -1,5 +1,5 @@
 const { get } = require("mongoose");
-const UserModel = require("../../Schemas/userSchema");
+const UserModel = require("../../schemas/userSchema");
 
 const getUser = async (req, res) => {
   const { id } = req.body;
