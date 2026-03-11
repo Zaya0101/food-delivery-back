@@ -1,4 +1,4 @@
-const UserModel = require("../../schemas/userSchema");
+const UserModel = require("../../Schemas/userSchema");
 
 const deleteUser = async (req, res) => {
   const { id } = req.body;
